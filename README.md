@@ -53,8 +53,8 @@ EXECUTE - dequeues and executes the next task
         - tasks queue implementation as a doubly linked list with pointers to the head & tail of the queue
     * functions.h
         - header for other functions used in implementation
-    * tema1.h
-        - main header (for tema1.c) and input/output defines
+    * main.h
+        - main header (for main.c) and input/output defines
 
 2. <b>./lib/       </b> 
     * list.c    
@@ -64,9 +64,9 @@ EXECUTE - dequeues and executes the next task
     * tasks.c
         - implementation of every task the mechanic has to perfom   
     * functions.c      
-        - implementation of other functions used in the main .c file (tema1.c)  
+        - implementation of other functions used in the main.c
 
-3. <b>./tema1.c    </b> 
+3. <b>./main.c    </b> 
     * fopen() input and output files
     * init tasks-queue and train-list; place the mechanic on the first wagon ("#")  
     * declare int tl = 0 (used for the SWITCH task)
